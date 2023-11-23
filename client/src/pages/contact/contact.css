@@ -1,0 +1,73 @@
+.contact {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background: 
+      url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+  }
+  .contactTitle {
+    font-size: 50px;
+    font-weight: 300;
+  }
+
+  .contactForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .registerLoginButton{
+    background-color:  teal;
+  }
+
+
+  .contactForm > label {
+    margin: 10px 0;
+  }
+  
+  .contactInput {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  .message{
+    height: 100px;
+    width: 480px;
+    font-display: auto;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
+  .contactInput:focus {
+    outline: none;
+  }
+
+  .message:focus {
+    outline: none;
+  }
+  .contactLabel{
+    font-size: 20px;
+    /* font-weight:   */
+  }
+  
+  .contactButton {
+    margin-top: 20px;
+    width: fit-content;
+    cursor: pointer;
+    background-color: #2C3539;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
