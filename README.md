@@ -1,5 +1,5 @@
 <br />
-<p align="center"><img src="./public/logo.png" height="150"></p>
+<p align="center"><img src="./Codein.png" height="150"></p>
 
 # Codein
 #### This is a web based blogging application for coders where they can share contest ranks, ratings, and
